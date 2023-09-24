@@ -536,8 +536,8 @@ margin-right: 120px;
     border: 1px solid var(--WHITE, #FFF);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     width: 264px;
-height: 40px;
-flex-shrink: 0;
+    height: 40px;
+    flex-shrink: 0;
 
 
 }
@@ -549,6 +549,27 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.48px;
+}
+.footer-button {
+    display: inline-flex;
+padding: 8px 24px;
+justify-content: center;
+align-items: center;
+gap: 16px;
+border-radius: 4px;
+background: var(--IRIS, #4D5AE5);
+color: var(--WHITE, #FFF);
+text-align: center;
+}
+.button-footer-subscribe {
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.icons-footer-subscribe {
+    color: #ffffff;
 }
 /* modal */
 .backdrop {
