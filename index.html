@@ -38,7 +38,7 @@
  <section class="main-page">
  <div class="container">  
 <h1 class="title-one">Effective Solutions for Your Business</h1>
-<button type="button" class="button-style" data-modal="is-open">Order Service</button>
+<button type="button" class="button-style" data-modal-is-open>Order Service</button>
 </div>
 </section>
 
@@ -365,25 +365,51 @@
 <p class="modal-text">Leave your contacts and we will call you back</p>
 <form class="modal-form">
     <div class="modal-style">
-        <label class="modal-label-style" for="user-name"> Name
+        <label class="modal-label-style" for="user-name"> Name </label>
             <div class="modal-input-style">
             <input class="input-style" type="text" name="user-name" id="user-name"/>
             <svg class="icons-modal" width="18" height="24">
                 <use href="./images/icons.svg#icon-name"/>
             </svg>
         </div>
-        </label>
+        
     </div>
     <div class="modal-style">
-        <label class="modal-label-style" for="phone"> Phone
+        <label class="modal-label-style" for="phone"> Phone </label>
             <div class="modal-input-style">
             <input class="input-style" type="tel" name="phone" id="phone"/>
             <svg class="icons-modal" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"/>
             </svg>
         </div>
+       
+    </div>
+    <div class="modal-style">
+        <label class="modal-label-style" for="email"> Email </label>
+            <div class="modal-input-style">
+            <input class="input-style" type="email" name="email" id="email"/>
+            <svg class="icons-modal" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"/>
+            </svg>
+        </div>
+       
+    </div>
+    <div class="modal-comment-area">
+        <label class="modal-label-style" for="user-comment">Comment</label>
+        <textarea class="text-area-style" id="user-comment" name="user-comment" placeholder="Text input"></textarea>
+    </div>
+    <div class="accepted-checkbox">
+        <input class="visually-hidden" id="user-privacy" type="checkbox" value="true" name="user-privacy"/>
+        <label class="accepted-text" for="user-privacy"> I accept the terms and conditions of the 
+            <span class="accepted-span">
+                <svg class="accepted-icon" width="10" height="8">
+                    <use href="./images/icons.svg#icon-accept"/>
+                </svg>
+            </span>
+        <a class="privacy-policy-style" href="./">Privacy Policy</a>
         </label>
     </div>
+    <button class="modal-send-button" type="button">Send</button>
 </form>
 </div>
 </div>
