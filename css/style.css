@@ -628,7 +628,7 @@ position: absolute;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 72px 24px 24px 24px;
 }
-.modal-close {
+.modal-close-button {
 position: absolute;
 top: 24px;
 left: 24px;
@@ -645,22 +645,17 @@ padding: 0;
 cursor: pointer;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-.modal-close:hover {
+.modal-close-button:hover
+.modal-close-button:focus {
 background-color: #404bbf; 
 border: none;
 }
-.modal-close:focus {
-    background-color: #404bbf; 
-    border: none;
+.modal-close:hover .close-button-icon
+.modal-close:focus .close-button-icon {
+    fill: #ffffff;
 }
-.close-button {
+.close-button-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal-close:hover .close-button{
-    fill: #ffffff;
-}
-.modal-close:focus .close-button {
-    fill: #ffffff;
 }
 .modal-text {
 color: var(--NAVY-BLUE, #2E2F42);
@@ -703,7 +698,7 @@ margin-bottom: 16px;
 
 
 }
-.input-style:focus .icons-modal{
+.input-style:focus {
     border-color: #4d5ae5;
 }
 .icons-modal {
