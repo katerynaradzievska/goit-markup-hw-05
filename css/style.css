@@ -760,7 +760,7 @@ margin-top: 24px;
 .accepted-input:checked + .accepted-text > .accepted-span {
     background-color: #404BBF;
     border: none;
-    fill: var(--OCEAN, #404BBF);
+    fill: #F4F4FD;
 }
 .privacy-policy-style {
     color: var(--IRIS, #4D5AE5);
