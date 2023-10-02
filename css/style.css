@@ -709,7 +709,7 @@ margin-bottom: 16px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
      
 }
-.input-style:focus .icons-modal {
+.input-style:focus + .icons-modal {
     fill: #4d5ae5;
 }
 .modal-comment-area {
@@ -755,7 +755,7 @@ margin-bottom: 16px;
     fill: transparent;
     
 }
-input:checked .accepted-span {
+.accepted-input:checked .accepted-text > .accepted-span {
     background-color: #404BBF;
     border: none;
     fill: var(--OCEAN, #404BBF);
