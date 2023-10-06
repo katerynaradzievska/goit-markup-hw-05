@@ -556,7 +556,7 @@ line-height: 24px;
 letter-spacing: 0.48px;
 }
 .footer-button {
-    display: inline-flex;
+display: inline-flex;
 padding: 8px 24px;
 justify-content: center;
 align-items: center;
@@ -572,19 +572,14 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
 border: none;
-
-}
-.button-footer-subscribe {
-    display: inline-flex;
-    padding: 8px 24px;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
 }
 
 .icons-footer-subscribe {
     color: #ffffff;
     margin-left: 16px;
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
 }
 .form-footer {
     display: flex;
