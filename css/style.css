@@ -560,7 +560,6 @@ display: inline-flex;
 padding: 8px 24px;
 justify-content: center;
 align-items: center;
-gap: 16px;
 border-radius: 4px;
 background: var(--IRIS, #4D5AE5);
 color: var(--WHITE, #FFF);
@@ -579,7 +578,6 @@ border: none;
     margin-left: 16px;
     width: 24px;
     height: 24px;
-    box-sizing: border-box;
 }
 .form-footer {
     display: flex;
